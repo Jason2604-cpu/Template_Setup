@@ -18,6 +18,6 @@ echo "Clearing bash history..."
 history -c
 rm -f /root/.bash_history
 rm -f /home/*/.bash_history
-
+chmod +x firstboot.sh
 echo "Template preparation complete."
 echo "Shutdown VM and convert to template."
