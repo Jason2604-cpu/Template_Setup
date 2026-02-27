@@ -38,10 +38,6 @@ echo "Creating user..."
 adduser "$USERNAME"
 usermod -aG sudo "$USERNAME"
 
-echo "Cleaning up firstboot service..."
-systemctl disable firstboot.service
-rm -f /etc/systemd/system/firstboot.service
-
 echo "Removing config file..."
 rm -f "$CONFIG_FILE"
 
