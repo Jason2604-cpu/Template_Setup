@@ -8,7 +8,7 @@ Before Converting to Template and Post Clone Scripts to Quickly setup your VM
     ```  
 2. Git Clone My Repository to the Linux VM that you want to make into a Template
     ```bash
-    git clone https://
+    git clone https://github.com/Jason2604-cpu/Template_Setup.git
     ```
 ## 2. Configure your config file first 
 
