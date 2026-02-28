@@ -14,7 +14,7 @@ Before Converting to Template and Post Clone Scripts to Quickly setup your VM
 
 1. Navigate to the folder where you store the project:
     ```bash
-    cd Template_setup
+    cd Template_Setup
     ```
 2. Change the config.env to your desire
     ```bash
